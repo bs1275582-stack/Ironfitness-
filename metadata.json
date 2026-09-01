@@ -1,0 +1,6 @@
+{
+  "name": "IronForge Fitness",
+  "description": "Premium gym & fitness club featuring elite strength conditioning, personal training, modern recovery, and state-of-the-art facilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
