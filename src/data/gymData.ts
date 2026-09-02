@@ -5,8 +5,8 @@ export const GYM_INFO = {
   tagline: "BUILD THE STRONGEST VERSION OF YOU.",
   subTagline: "Train harder. Move better. Become unstoppable.",
   address: "Level 3 & 4, Apex Iron Tower, Model Town Link Road (Near Geeta Mandir Chowk), Jalandhar, Punjab 144003",
-  phone: "+91 181 492 7700",
-  altPhone: "+91 98884 18822",
+  phone: "+91 97799 60510",
+  altPhone: "+91 181 492 7700",
   email: "frontdesk@ironforgefitness.com",
   supportEmail: "support@ironforgefitness.com",
   hours: {

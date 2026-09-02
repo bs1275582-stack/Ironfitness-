@@ -142,7 +142,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenVipModal }) => {
                   <Phone className="w-3.5 h-3.5 text-[#CCFF00] shrink-0 mt-0.5" />
                   <div>
                     <span className="text-[9px] text-zinc-500 uppercase font-bold block">Front Desk</span>
-                    <a href={`tel:${GYM_INFO.phone}`} className="text-zinc-300 hover:text-white transition-colors text-[11px] font-mono">
+                    <a href={`tel:${GYM_INFO.phone.replace(/\s+/g, '')}`} className="text-zinc-300 hover:text-[#CCFF00] transition-colors text-[11px] font-mono">
                       {GYM_INFO.phone}
                     </a>
                   </div>

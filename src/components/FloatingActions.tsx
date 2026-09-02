@@ -30,7 +30,7 @@ export const FloatingActions: React.FC<FloatingActionsProps> = ({ onOpenVipModal
 
   const openWhatsApp = () => {
     const text = encodeURIComponent("Hi IronForge Fitness! I am interested in membership details and booking a facility tour.");
-    window.open(`https://wa.me/919876543210?text=${text}`, '_blank');
+    window.open(`https://wa.me/919779960510?text=${text}`, '_blank');
   };
 
   return (

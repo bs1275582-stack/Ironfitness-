@@ -83,7 +83,15 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialProgramOr
                   </div>
                   <div>
                     <h4 className="font-bold text-white uppercase text-xs">Phone Support</h4>
-                    <p className="text-zinc-400 mt-0.5">{GYM_INFO.phone} / {GYM_INFO.altPhone}</p>
+                    <p className="text-zinc-400 mt-0.5">
+                      <a href={`tel:${GYM_INFO.phone.replace(/\s+/g, '')}`} className="text-zinc-200 hover:text-[#CCFF00] font-mono transition-colors">
+                        {GYM_INFO.phone}
+                      </a>
+                      <span className="mx-1.5 text-zinc-600">/</span>
+                      <a href={`tel:${GYM_INFO.altPhone.replace(/\s+/g, '')}`} className="text-zinc-400 hover:text-white font-mono transition-colors">
+                        {GYM_INFO.altPhone}
+                      </a>
+                    </p>
                   </div>
                 </div>
 

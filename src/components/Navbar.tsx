@@ -87,7 +87,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenVipModal, onBookConsultati
               <span className="w-2 h-2 rounded-full bg-[#CCFF00] animate-pulse"></span>
               <span className="text-zinc-300">Open 24/7 (Keycard Access)</span>
             </span>
-            <a href={`tel:${GYM_INFO.phone}`} className="hover:text-white flex items-center gap-1 transition-colors">
+            <a href={`tel:${GYM_INFO.phone.replace(/\s+/g, '')}`} className="hover:text-white flex items-center gap-1 transition-colors">
               <Phone className="w-3 h-3 text-[#CCFF00]" />
               <span>{GYM_INFO.phone}</span>
             </a>
