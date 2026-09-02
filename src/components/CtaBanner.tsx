@@ -36,7 +36,7 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({ onOpenVipModal }) => {
             </h2>
 
             <p className="mt-6 text-base sm:text-xl text-zinc-300 font-normal leading-relaxed max-w-xl mx-auto">
-              Stop waiting for motivation. Start building momentum. Take the first step into Bangalore's premier strength sanctuary.
+              Stop waiting for motivation. Start building momentum. Take the first step into Jalandhar's premier strength sanctuary.
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
